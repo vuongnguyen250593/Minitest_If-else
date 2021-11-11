@@ -20,14 +20,16 @@
         // Câu c
         let a = parseInt(prompt("Nhập số a: a là số nhỏ hơn"));
         let b = parseInt(prompt("Nhập số b: b là số lớn hơn"));
-        alert("Tổng các số  = " + (b + a) * (b - a) / 2);
+        alert("Tổng các số  = " + (b + a) * ((b - a) + 1) / 2);
 
         // Câu d
         let a = parseInt(prompt("Nhập năm"));
         if (a < 2000) {
             alert("Năm thuộc thế kỉ 20");
-        } else (2000 < a < 2100) {
-            alert("Năm thuộc thế kỉ 21")
+        } else if (2000 < a < 2100) {
+            alert("Năm thuộc thế kỉ 21");
+        } else {
+            alert("Năm thuộc thế kỉ 22");
         }
 
         // Câu e
