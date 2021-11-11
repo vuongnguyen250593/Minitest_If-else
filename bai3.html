@@ -9,8 +9,8 @@
 <body>
     <input type="text" id="nhapa">
     <input type="text" id="nhapb">
-    <input type="button" value="Nút Bấm" onclick="dientich">
-    <p id="dientich"></p>
+    <input type="button" value="Nút Bấm" onclick="dientich()">
+    <p id="ketqua"></p>
 <script>
     // Câu 3
     // - câu lệnh nhận giá trị từ 1 ô input: document.getElementById("").value
@@ -19,7 +19,7 @@
         let a = document.getElementById("nhapa").value;
         let b = document.getElementById("nhapb").value;
         S = a * b;
-        document.getElementById("dientich").innerHTML = "Diện tích = " + S;
+        document.getElementById("ketqua").innerHTML = "Diện tích = " + S;
     }
 </script>
 </body>
